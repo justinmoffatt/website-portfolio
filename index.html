@@ -1,106 +1,55 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="readablestyle.css"/>
-		<META NAME=”ROBOTS” CONTENT=”NOINDEX, NOFOLLOW”>
-		<title>justinmoffatt.info</title>
-		<h1>Justin Moffatt</h1>
+		<link rel="stylesheet" type="text/css" href="landing.css"/>
+		<meta name="ROBOTS" content="NOINDEX NOFOLLOW">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>justinmoffatt: info</title>
 	</head>
 
 	<body>
-		<h2 id="about">About</h2>
-		<p>A hub for my <a href="#physics">&#8627;written reports</a>, <a href="#published">&#8627;published papers</a>, <a href="#programming">&#8627;programming projects</a>, and <a href="#interests">&#8627;topics of interest</a>. My current papers are available in their original form as PDF. Programming projects are prefaced with an about blurb for the gist, and include a link to a Github hosted Git repository with the code.</p>
+		<div class="container">
+			<h1 class="left">justinmoffatt</h1>
+			<h1>:</h1>
+			<h1 class="right"><span>info</span></h1>
+		</div>
+
+		<div class="container">
+			<div class="left">
+				<p class="left">Lab reports and research papers</p>
+				<p>&rarr;<em>Optics</em> &rarr;<em>Laboratory</em> &rarr;<em>Research</em></p>
+			</div>
+			<h1>:</h1>
+			<h1 class="right"><a class="button" href="./physics/">physics</a></h1>
+		</div>
+
+		<div class="container">
+			<div class="left">
+				<p>Programing projects links and listing</p>
+				<p>&rarr;<em>Java</em> &rarr;<em>Javascript</em> &rarr;<em>Lua</em></p>
+			</div>
+			<h1>:</h1>
+			<h1 class="right"><a class="button" href="./computing/">computing</a></h1>
+		</div>
+
+		<div class="container">
+			<div class="left">
+				<p>My website and various projects are hosted on</p>
+				<p>&rarr;<em>Projects</em> &rarr;<em>Repositories</em></p>
+			</div>
+			<h1>:</h1>
+			<h1 class="right"><a class="button" href="https://github.com/justinmoffatt/">github</a></h1>
+		</div>
+
+
+		<div class="footer">
+			&copy <script type="text/javascript">document.write(new Date().getFullYear())</script> Justin Moffatt &mdash; <a href="https://github.com/justinmoffatt/website-portfolio/">Website Repository 📎</a>
+		</div>
+	</body>
+
 		
-		<h2 id="projects">Projects</h2>
-		<p>Some</em> &rarr;<em>keywords</em> have been added under each paper/project to aid in finding the most relevant topic.</p>
-		
-		<hr>
-		<h3 id="physics">Solutions for Variable Ratio Coupler-Based Mach–Zehnder Interferometer</h3>
-		&rarr;<em>Physics</em> &rarr;<em>Optics</em> &rarr;<em>Research</em> &rarr;<em>Mathematics Analysis</em>
-		
-		<h5>Abstract</h5>
-		<p>An analytical method for achieving specific wave modulations from the device designed in <i>Polarization-Independent, Multifunctional All-Fiber Comb Filter Using Variable Ratio Coupler-Based Mach–Zehnder Interferometer</i> will be derived from the Jones calculus representing the device in question. This will, as a consequence, show the mathematical reasoning for many characteristics of the device such as the polarization-independence, and the ability to achieve the effects of a comb filter.</p>
-		
-		<h5>Find it:</h5>
-		<ul>
-			<li><a href="justinmoffatt-opticsanalysis.pdf">[PDF 📎]</a> Download</li>
-		</ul>
 
-		<hr>
-		<h3 id="physics">Determining Fiber Optic Cable Numerical Aperture</h3>
-		&rarr;<em>Physics</em> &rarr;<em>Optics</em> &rarr;<em>Laboratory</em> &rarr;<em>Error Analysis</em>
-		
-		<h5>Purpose</h5>
-		<p>Find the numerical aperture of an optical fiber through experiment and determine if it falls within experimental error of the manufacturer's listed value.</p>
-
-		<h5>Find it:</h5>
-		<ul>
-			<li><a href="justinmoffatt-opticslab.pdf">[PDF 📎]</a> Download</li>
-		</ul>
-
-		<hr>
-		<h3 id="programming">LÖVE Blackjack</h3>
-		&rarr;<em>Programming</em> &rarr;<em>Lua</em> &rarr;<em>Framework Scripting</em> &rarr;<em>Game</em>
-		<h5>About</h5>
-		<p>A clone of Blackjack using the LÖVE 2D framework. The goal was to produce a quick prototype and Android application. The LÖVE 2D framework uses Lua scripting to draw the graphic interface and thus holds the game logic as well. An iteration was explored using classic OOP objects for data structures, but it later changed to embrace a more procedural script paradigm.</p>
-		<h5>Find it:</h5>
-		<ul>
-			<li><a href="https://github.com/justinmoffatt/love-blackjack">[Github 📎]</a> Repository</li>
-			<li><a href="https://github.com/justinmoffatt/love-blackjack/releases/download/0.1.3/blackjack-0.1.3.apk">[.apk 📎]</a> Android Application Package</li>
-		</ul>
-
-		<hr>
-		<h3 id="programming">Baseball Score Counter</h3>
-		&rarr;<em>Programming</em> &rarr;<em>Java</em> &rarr;<em>Object Oriented</em>
-		<h5>About</h5>
-		A utility designed to keep track of standard score card entries and pitch count for the game of baseball. The main project is an encapsulated package to be used by a user interface. A basic command line interface is implemented on the <code>cli</code> branch while the main project exists on the <code>master</code> branch.
-		<p></p>
-		<h5>Find it:</h5>
-		<ul>
-			<li><a href="https://github.com/justinmoffatt/baseball-score">[Github 📎]</a> Repository</li>
-		</ul>
-
-		<hr>
-		<h3 id="published">Secular Long Periodic and High Frequency Semimajor Axis Time Rates of Change Due to
-Emission of Gravitational Radiation</h3>
-		&rarr;<em>Physics</em> &rarr;<em>Celestial Mechanics</em> &rarr;<em>Numerical Analysis</em>
-		<h5>Abstract</h5>
-		<p>For a two-body system, we derive expressions for the secular, long periodic and high frequency effects caused on to the semi-major axis of the secondary body due to the emission of gravitational waves. This is possible by considering the time rate of change of the total energy of the system, and substituting for the energy loss due the emission of gravitational waves. Next, we convert the time rate of change of the semimajor axis as a function of the orbital elements using standard a celestial mechanics approach, where the inverse powers or the orbital radial vector r is written as a function of the orbital elements with the help of the eccentricity functions G(e). We apply our result to Mercury/Sun system.</p>
-
-		<h5>Find it:</h5>
-		<ul>
-			<li><a href="http://www.worldresearchlibrary.org/up_proc/pdf/2821-15621286941-6.pdf">[PDF 📎]</a> World Research Library</li>
-		</ul>
-
-		<h2 id="interests">Interests</h2>
-		<p>A general interest in computer usability has lead me toward Linux and open source software. This stems from an interest in usability design like how a door knob handle encourages pushing or pulling a door open, and aesthetic design like readable distraction free websites! Exploring video game level design introduced me to many software development tools and environments. Keeping in theme of this webpage, more academic related interests are outlined below.</p>
-
-		<hr>
-		<h3>Data-Oriented Design/Data-Oriented Programming</h3>
-		&rarr;<em>Programming</em> &rarr;<em>Structure</em> &rarr;<em>Data</em>
-		<p>After working on some personal projects using the ingrained paradigm of object oriented programming, I found that I spent most of my time working at the abstractions of setting up objects, structures, etc, rather than coding actual features. This lead me to a period where I mostly produced procedural code, but the long term handicaps of large code bases and lack of unique data structures became apparent. From browsing current computer science topics, I found data oriented design. This paradigm is not as intuitive as the physical world based object oriented paradigm, but I think the potential advantages for large and long term data management are worth it. Applications in mathematics and physics seem very applicable to data-oriented design.</p>
-		<h5>My reading choices and useful videos:</h5>
-		<ul>
-			<li><a href="http://www.dataorienteddesign.com/dodbook/">[Book 📎]</a> Data-Oriented Design by Richard Fabian</li>
-			<li><a href="https://youtu.be/rX0ItVEVjHc">[Video 📎]</a> Data-Oriented Design and C++ by Mike Acton at CppCon2014</li>
-			<li><a href="https://youtu.be/ZHqFrNyLlpA">[Video 📎]</a> Data-Oriented Demo by Jonathan Blow</li>
-		</ul>
-		
-		<hr>
-		<h3>Solid State Solar Panels</h3>
-		&rarr;<em>Physics</em> &rarr;<em>Quantum</em> &rarr;<em>Condensed Matter</em>
-		<p>This summer, as a diving point into applied solid state physics, I started to look at solar panels. Energy transformations were one of the main ideas that initially peaked my interest in physics. Along with the consideration of the current literal and business climates, this topic fell right into my lap. Recent research into hybrid organic-inorganic Perovskite crystals being designed for ideal quantum electron energy levels has been where I have directed most of my exploration.</p>
-		<h5>My reading choices:</h5>
-		<ul>
-			<li><a href="https://www.researchgate.net/publication/273473084_Organic-inorganic_halide_perovskite_based_solar_cells_-_revolutionary_progress_in_photovoltaics">[Article 📎]</a> Organic–inorganic halide perovskite based solar
-cells – revolutionary progress in photovoltaics by Xiangye Liu et al.</li>
-			<li><a href="https://www.springer.com/gp/book/9783319329895">[Book 📎]</a> Hole Conductor Free Perovskite-based Solar Cells by Lioz Etgar</li>
-			<li><a href="https://www.springer.com/gp/book/9788132227595">[Book 📎]</a> Magnetic Perovskites by Asish K. Kundu</li>
-		</ul>
 
 
 </html>
 
-
-<footer>
-	&copy <script type="text/javascript">document.write(new Date().getFullYear())</script> Justin Moffatt &mdash; <a href="https://github.com/justinmoffatt/website-portfolio/">Webpage Repository 📎</a>
-</footer>
